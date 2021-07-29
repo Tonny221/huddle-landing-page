@@ -27,3 +27,68 @@ body{
     background-image: url(./images/bg-desktop.svg);
     background-color: var(--bg-color);
 }
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 2rem 0 2rem;
+}
+
+/*Header*/
+
+.logo{
+    width: 15%;
+}
+
+/*Main*/
+
+.content{
+    display: flex;
+    column-gap: 3rem;
+}
+
+.content-illustration{
+    width: 100%;
+}
+
+.content-img{
+    width: 100%;
+}
+
+.content-data{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.content-data-title{
+    font-size: 2.5rem;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.content-data-information{
+    color: white;
+    font-size: 1rem;
+}
+
+.call-to-action-button{
+    text-decoration: none;
+    width: 25%;
+    padding: 0.75rem;
+    color: var(--bg-color);
+    background-color: white;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*Footer*/
+
+.social-medias{
+    list-style: none;
+    display: flex;
+    column-gap: 1.5rem;
+    justify-content: flex-end;
+}
