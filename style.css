@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root{
+    /*Colors*/
+    --bg-color: hsl(257, 40%, 49%);
+    --button-hover-color: hsl(257, 40%, 49%);
+
+    /*Fonts & Typography*/
+    --body-font: 'Poppins', sans-serif;
+    --button-font: 'Open Sans', sans-serif;
+
+}
+
+/*Base*/
+
 *,
 *::before,
 *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(./images/bg-desktop.svg);
+    background-color: var(--bg-color);
 }
